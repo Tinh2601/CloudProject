@@ -48,7 +48,7 @@ def extractImage():
 def extractDocument():
     file = request.files.get("filenameDocument")
     binaryFile = file.read()
-    # textractclient = client()
+    textractclient = client()
 
 
 
